@@ -34,12 +34,14 @@ project "DroGen"
     
         includedirs
         {
+            "%{wks.location}/DroGen/dependencies/fmt/include/"
         }
     
         location "%{wks.location}/DroGen"
     
         links 
         {
+            "fmt"
         }
     
     
@@ -68,6 +70,7 @@ project "DroneLand"
         
     includedirs
     {
+        "%{wks.location}/DroGen/dependencies/fmt/include/",
         "%{wks.location}/DroGen/src",
     }
         
@@ -88,3 +91,4 @@ project "DroneLand"
         runtime "Release"
         optimize "On"
         
+include "DroGen/dependencies/fmt"

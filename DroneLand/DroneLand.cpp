@@ -1,10 +1,16 @@
-#include "Application.h"
+#include "Core/Application.h"
+#include "Core/Log.h"
 
 
-int main()
+namespace DroGen
 {
-	print("Hello");
-	print("Hai");
-	print("sharukh pwoliyaan");
-	print("Sharukh Popwoliyaan");
+	class DroneLand : public Application
+	{
+		
+	};
+
+	Application* CreateApplication()
+	{
+		return new DroneLand;
+	}
 }
