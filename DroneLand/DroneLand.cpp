@@ -6,7 +6,7 @@ namespace DroGen
 {
 	class DroneLand : public Application
 	{
-		
+
 	};
 
 	Application* CreateApplication()
