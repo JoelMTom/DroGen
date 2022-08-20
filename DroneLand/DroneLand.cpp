@@ -4,4 +4,5 @@
 int main()
 {
 	print("Hello");
+	print("Hai");
 }
