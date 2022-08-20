@@ -1,6 +1,6 @@
 workspace "Drogen"
 
-    startproject "Drogen"
+    startproject "DroneLand"
 
     configurations 
     {
