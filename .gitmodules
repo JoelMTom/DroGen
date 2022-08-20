@@ -1,3 +1,3 @@
 [submodule "DroGen/dependencies/fmt"]
 	path = DroGen/dependencies/fmt
-	url = git@github.com:JoelMTom/fmt.git
+	url = https://github.com/JoelMTom/fmt.git
