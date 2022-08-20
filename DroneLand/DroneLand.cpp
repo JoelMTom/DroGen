@@ -5,5 +5,4 @@ int main()
 {
 	print("Hello");
 	print("Hai");
-	print("logging");
 }
