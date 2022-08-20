@@ -1,3 +1,3 @@
 @echo off
-premake5 vs2022
+call dependencies\premake5.exe vs2022
 @echo on
