@@ -6,7 +6,11 @@ namespace DroGen
 {
 	class DroneLand : public Application
 	{
-
+	public:
+		DroneLand()
+		{
+			D_CLIENT_DEBUG("Hello From DroneLand");
+		}
 	};
 
 	Application* CreateApplication()

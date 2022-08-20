@@ -7,7 +7,7 @@ namespace DroGen
 {
 	Application::Application()
 	{
-		Run();
+
 	}
 
 	Application::~Application()
