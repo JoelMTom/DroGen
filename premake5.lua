@@ -34,7 +34,8 @@ project "DroGen"
     
         includedirs
         {
-            "%{wks.location}/DroGen/dependencies/fmt/include/"
+            "%{wks.location}/DroGen/dependencies/fmt/include/",
+            "%{wks.location}/DroGen/src/"
         }
     
         location "%{wks.location}/DroGen"

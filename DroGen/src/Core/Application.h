@@ -1,6 +1,7 @@
 #pragma once
+#include "Window.h"
 
-
+#include <memory>
 
 namespace DroGen
 {
@@ -15,6 +16,7 @@ namespace DroGen
 
 	private:
 		bool isRunning = true;
+		std::unique_ptr<Window> m_Window;
 	};
 
 	Application* CreateApplication();
