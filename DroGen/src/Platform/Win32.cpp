@@ -24,9 +24,6 @@ namespace DroGen
 
 	}
 
-	
-
-
 	void Win32::OnUpdate()
 	{
 

@@ -1,3 +1,6 @@
 [submodule "DroGen/dependencies/fmt"]
 	path = DroGen/dependencies/fmt
 	url = https://github.com/JoelMTom/fmt.git
+[submodule "DroGen/dependencies/glfw"]
+	path = DroGen/dependencies/glfw
+	url = https://github.com/JoelMTom/glfw.git
