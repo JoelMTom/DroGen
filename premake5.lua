@@ -35,6 +35,7 @@ project "DroGen"
         includedirs
         {
             "%{wks.location}/DroGen/dependencies/fmt/include/",
+            "%{wks.location}/DroGen/dependencies/glfw/include/",
             "%{wks.location}/DroGen/src/"
         }
     
@@ -42,7 +43,8 @@ project "DroGen"
     
         links 
         {
-            "fmt"
+            "fmt",
+            "glfw"
         }
     
     
@@ -72,6 +74,7 @@ project "DroneLand"
     includedirs
     {
         "%{wks.location}/DroGen/dependencies/fmt/include/",
+        "%{wks.location}/DroGen/dependencies/glfw/include/",
         "%{wks.location}/DroGen/src",
     }
         
@@ -93,3 +96,4 @@ project "DroneLand"
         optimize "On"
         
 include "DroGen/dependencies/fmt"
+include "Drogen/dependencies/glfw"

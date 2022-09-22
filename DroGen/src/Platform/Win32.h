@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core/Window.h"
+#include "GLFW/glfw3.h"
 
 namespace DroGen
 {
@@ -12,11 +13,11 @@ namespace DroGen
 
 		void OnUpdate() override;
 
-		void Init();
+		void Init(const WindowProperties& props);
 		void Shutdown();
 
 	private:
-
+		GLFWwindow* m_Window;
 		struct WinData
 		{
 			std::string Title;
